@@ -1,0 +1,25 @@
+type User {
+  id: ID!,
+  firstname: String!
+  lastname: String!
+  address: String!
+}
+
+input UserInput {
+  id: ID!,
+  firstname: String!
+  lastname: String!
+  address: String!
+}
+
+
+type Query {
+  listUsers: [User!]!
+}
+
+type Mutation {
+  createUser(user: UserInput!): User!
+  @aws_auth(cognito_groups: ["Admin"])
+  deleteUser(userId: String!): String!
+  @aws_auth(cognito_groups: ["Admin"])
+}
