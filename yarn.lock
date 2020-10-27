@@ -123,7 +123,7 @@
     "@aws-cdk/custom-resources" "1.70.0"
     constructs "^3.0.4"
 
-"@aws-cdk/aws-ec2@1.70.0":
+"@aws-cdk/aws-ec2@1.70.0", "@aws-cdk/aws-ec2@^1.70.0":
   version "1.70.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-ec2/-/aws-ec2-1.70.0.tgz#18810bba83d119ae7dc4fba4c0c7adafceae2f3a"
   integrity sha512-rRp2GZt/g/quht/mQKO8d4o47qe7tRm6R0HaQ8NI0DfVuLhT6qYX2F6wvw5mJjg9WpMcPNTPLZLeS2Af5lOKow==

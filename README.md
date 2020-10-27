@@ -10,3 +10,10 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
  * `cdk deploy`           deploy this stack to your default AWS account/region
  * `cdk diff`             compare deployed stack with current state
  * `cdk synth`            emits the synthesized CloudFormation template
+
+
+Create an account on cognito and a group with name "Admin"
+Add a user to the Admin group
+
+SigIn on Appsync both has a regular user and has an "Admin" to access the endpoint
+
